@@ -1,9 +1,65 @@
-# weather-app
+# 🌦️ Weather App
 
-In this repository we will learn to create a Weather App for Website using HTML CSS and JavaScript.
+A Python-based Weather Application that provides real-time weather information for any city using a weather API.
 
-We will get the current weather data from Fess API fey from OpenWeatherMap and display the weather information like Temperature,  Weather condition, Humidity and Wind Speed according to the city on our website or app.
+## Features
 
-We will display the weather info on website from Free API using JavaScript.
+- 🌍 Search weather by city
+- 🌡️ Current Temperature
+- 💧 Humidity
+- 🌬️ Wind Speed
+- ☁️ Weather Condition
+- 📅 Real-Time Weather Information
+- ❌ Error handling for invalid city names
 
-In this weather app we will add one search box where user can enter the city name and get the weather information of the particular city.
+## Technologies Used
+
+- Python
+- OpenWeather API
+- Requests
+- VS Code
+- Git & GitHub
+
+## Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/sdafreen/weather-app.git
+```
+
+Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the project
+
+```bash
+python app.py
+```
+
+## Project Structure
+
+```
+Weather-App
+│
+├── app.py
+├── weather.py
+├── requirements.txt
+├── README.md
+└── .gitignore
+```
+
+## Future Enhancements
+
+- 5-Day Weather Forecast
+- Weather Icons
+- GUI using Tkinter
+- Voice Search
+- Location Detection
+
+## Author
+
+**Syed Afreen**
